@@ -91,6 +91,7 @@ class IOSSearchBar extends AnimatedWidget {
                         child: new Padding(
                           padding: const EdgeInsets.only(left: 20.0),
                           child: new EditableText(
+                            backgroundCursorColor: Colors.red,
                             controller: controller,
                             focusNode: focusNode,
                             onChanged: onUpdate,
